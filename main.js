@@ -1,4 +1,4 @@
-console.log('Hello world');
+console.log("Hello world");
 
 
 // Number 数值
