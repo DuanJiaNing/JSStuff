@@ -84,3 +84,25 @@ console.log(rabbit.__proto__.eats); // 13
 for (let k in rabbit) {
     console.log(k);
 }
+
+/*!
+ * Vue.js v2.6.10
+ * (c) 2014-2019 Evan You
+ * Released under the MIT License.
+ */
+var newVar = (function (global, factory) {
+    var vue = factory();
+    return vue;
+}(this, function () {
+
+    function Vue(options) {
+        if (!(this instanceof Vue)
+        ) {
+            warn('Vue is a constructor and should be called with the `new` keyword');
+        }
+        this._init(options);
+    }
+
+    return Vue;
+
+}))();
